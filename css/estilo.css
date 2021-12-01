@@ -1,0 +1,89 @@
+body{
+    background-color: coral;
+}
+.contenedor{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows:  100%;
+    margin-left: 25%;
+    padding-top:25px;
+   margin-bottom: 25px;
+   text-align: justify;
+}
+.contenedor1{
+    width: 100%;
+    margin-left: 10%;
+}
+img{
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    display: block;
+}
+table{
+    width:100%;
+    background-color: #ddd;
+    border-collapse: collapse;
+}
+th , td{
+    margin: auto;
+    padding: 15px;
+}
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #8EB89F ;
+}
+.contimg{
+    width: 60%;
+    background-color: #972F25 ;
+    text-align: center;
+}
+tr:hover{
+    background-color: #369681;
+    color: white;
+}
+.titulo{
+    color: tomato;
+}
+.img{
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    display: block;
+}
+.sep{
+    text-align: center;
+    width: 72%;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding: 0px 8px;
+}
+.png{
+    width: 50px;
+    height: 50px;
+    padding-left: 18px;
+    margin-bottom: 8px;
+    display: inline;
+}
+.butt{
+    border: none;
+}
+.gr{
+    background-color: rgb(68, 190, 140);
+    height: 50px;
+    width: 120px;
+    color: white;
+    font-size: 16px;
+}
+.el{
+    background-color: rgb(190, 68, 68);
+    height: 50px;
+    width: 120px;
+    color: white;
+    font-size: 16px;
+}
